@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios'
+import UselessComponent from './UselessComp';
 
 const Exercise = props => (
 	<tr>
@@ -58,6 +59,7 @@ export default class ExercisesList extends Component {
 		return (
 			<div>
 				<h3>Logged Exercises</h3>
+				<UselessComponent/>
 				<table className="table">
 					<thead className="thead-light">
 						<tr>
